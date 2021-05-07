@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&display=swap");
+
+:root {
+  --softred: #fb6087;
+  --greyishblue: hsl(237, 18%, 59%);
+  --Darkdesaturatedblue: hsl(236, 21%, 26%);
+  --Verydarkblue: hsl(235, 16%, 14%);
+  --Verydark-mostlyblack-blue: #191a24;
+  --bodytextsize: 14px;
+  --bodyfont: "Red Hat Text", sans-serif;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(images/bg-stars.svg);
+  background-size: auto;
+  background-position: center;
+  background-color: var(--Verydarkblue);
+}
+
+h1,
+h2,
+p {
+  font-family: var(--bodyfont);
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: var(--bodyfont);
+  color: white;
+  text-align: center;
+  letter-spacing: 0.5rem;
+  margin: 8rem 0 4rem 0;
+}
+
+/* ----------- FOOTER ------------ */
+footer {
+  height: 14rem;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  margin-left: -10px;
+  overflow-x: hidden;
+}
+
+.hills {
+  width: 1550px;
+  position: absolute;
+  bottom: 0;
+  z-index: -5;
+}
+
+.somesection {
+  width: 8.5rem;
+  display: flex;
+  gap: 2rem;
+  margin: 2rem auto;
+}
+
+.icon {
+  width: 1.5rem;
+  margin-top: 5rem;
+}
+
+.recolor:hover {
+  fill: var(--softred);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  font-family: var(--bodyfont);
+  color: hsl(228, 45%, 44%);
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  font-family: var(--bodyfont);
+}
