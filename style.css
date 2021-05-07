@@ -22,6 +22,9 @@ body {
   background-color: var(--Verydarkblue);
 }
 
+.main {
+}
+
 h1,
 h2,
 p {
@@ -59,7 +62,7 @@ h1 {
   background-color: var(--Verydark-mostlyblack-blue);
   transform: translateY(-4rem);
   z-index: -2;
-  border-radius: 15px;
+  border-radius: 0px 0px 15px 15px;
 }
 
 .counttext {
